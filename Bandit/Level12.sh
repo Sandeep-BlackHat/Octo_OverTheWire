@@ -173,7 +173,7 @@ bandit12@bandit:~$ sort data.txt
 000000e0: 0163 08ab dc31 91cd 1747 599b e401 0b06  .c...1...GY.....
 000000f0: a8b1 7255 a3b2 9cf9 75cc f106 941b 347a  ..rU....u.....4z
 00000100: d616 55cc 2ef2 9d46 e7d1 3050 b5fb 76eb  ..U....F..0P..v.
-00000110: 01f8 60c1 2201 33f0 0de0 4aa6 ec8c 914f  ..`.".3...J....O
+00000110: 01f8 60c1 2201 33f0 0de0 4aa6 ec8c 914f  ..`...3...J....O
 00000120: cf8a aed5 7b52 4270 8d51 6978 c159 8b5a  ....{RBp.Qix.Y.Z
 00000130: 2164 fb1f c26a 8d28 b414 e690 bfdd b3e1  !d...j.(........
 00000140: f414 2f9e d041 c523 b641 ac08 0c0b 06f5  ../..A.#.A......
@@ -181,12 +181,12 @@ bandit12@bandit:~$ sort data.txt
 00000160: 3c82 af41 20fd 6e7d 0a35 2833 41bd de0c  <..A .n}.5(3A...
 00000170: 774f ae52 a1ac 0fb2 8c36 ef58 537b f30a  wO.R.....6.XS{..
 00000180: 1510 cab5 cb51 4231 95a4 d045 b95c ea09  .....QB1...E.\..
-00000190: 9fa0 4d33 ba43 22c9 b5be d0ea eeb7 ec85  ..M3.C".........
+00000190: 9fa0 4d33 ba43 22c9 b5be d0ea eeb7 ec85  ..M3.C..........
 000001a0: 59fc 8bf1 97a0 87a5 0df0 7acd d555 fc11  Y.........z..U..
-000001b0: 223f fdc6 2be3 e809 c974 271a 920e acbc  "?..+....t'.....
+000001b0: 223f fdc6 2be3 e809 c974 271a 920e acbc  .?..+....t......
 000001c0: 0de1 f1a6 393f 4cf5 50eb 7942 86c3 3d7a  ....9?L.P.yB..=z
 000001d0: fe6d 173f a84c bb4e 742a fc37 7b71 508a  .m.?.L.Nt*.7{qP.
-000001e0: a2cc 9cf1 2522 8a77 39f2 716d 34f9 8620  ....%".w9.qm4..
+000001e0: a2cc 9cf1 2522 8a77 39f2 716d 34f9 8620  ....%..w9.qm4..
 000001f0: 4e33 ca36 eec0 cd4b b3e8 48e4 8b91 5bea  N3.6...K..H...[.
 00000200: 01bf 7d21 0b64 82c0 3341 3424 e98b 4d7e  ..}!.d..3A4$..M~
 00000210: c95c 1b1f cac9 a04a 1988 43b2 6b55 c6a6  .\.....J..C.kU..
@@ -370,7 +370,7 @@ P▒^data2.bin=▒▒BZh91AY&SY▒O▒▒▒▒ڞOv▒▒▒}?▒▒}▒▒^▒�
                                           ▒▒d▒bX?▒▒z▒▒2▒▒<▒▒A ▒n}
 5(3A▒▒
       wO▒R▒▒▒▒6▒XS{▒
-▒▒9?L▒P▒yB▒▒=z▒m?▒L▒Nt*▒7{qP▒▒̜▒%"▒w9▒qm4▒▒ N3▒6▒▒▒K▒▒H䋑[▒▒}!
+▒▒9?L▒P▒yB▒▒=z▒m?▒L▒Nt*▒7{qP▒▒̜▒%.▒w9▒qm4▒▒ N3▒6▒▒▒K▒▒H䋑[▒▒}!
                                                              d▒▒3A4$▒M~▒\ɠJ▒C▒kUƦ\▒▒▒\▒FSN▒▒&=▒[▒▒q     \)▒$:▒▒H▒t&/▒(▒▒▒▒]▒▒BB9<s ▒▒h=bandit12@bandit:/tmp/break$ file data
 data: gzip compressed data, was "data2.bin", last modified: Thu May  7 18:14:30 2020, max compression, from Unix
 bandit12@bandit:/tmp/break$ mv data data.gz
@@ -383,7 +383,7 @@ data.txt: ASCII text
 bandit12@bandit:/tmp/break$ file data
 data: bzip2 compressed data, block size = 900k
 bandit12@bandit:/tmp/break$ bzip2 -r data
-bzip2: Bad flag `-r'
+bzip2: Bad flag '-r'
 bzip2, a block-sorting file compressor.  Version 1.0.6, 6-Sept-2010.
 
    usage: bzip2 [flags and input files in any order]
@@ -391,7 +391,7 @@ bzip2, a block-sorting file compressor.  Version 1.0.6, 6-Sept-2010.
    -h --help           print this message
    -d --decompress     force decompression
    -z --compress       force compression
-   -k --keep           keep (don't delete) input files
+   -k --keep           keep (dont delete) input files
    -f --force          overwrite existing output files
    -t --test           test compressed file integrity
    -c --stdout         output to standard out
@@ -404,18 +404,18 @@ bzip2, a block-sorting file compressor.  Version 1.0.6, 6-Sept-2010.
    --fast              alias for -1
    --best              alias for -9
 
-   If invoked as `bzip2', default action is to compress.
-              as `bunzip2',  default action is to decompress.
-              as `bzcat', default action is to decompress to stdout.
+   If invoked as 'bzip2', default action is to compress.
+              as 'bunzip2',  default action is to decompress.
+              as 'bzcat', default action is to decompress to stdout.
 
    If no file names are given, bzip2 compresses or decompresses
    from standard input to standard output.  You can combine
-   short flags, so `-v -4' means the same as -v4 or -4v, &c.
+   short flags, so '-v -4' means the same as -v4 or -4v, &c.
 
 bandit12@bandit:/tmp/break$ bzip2 -d data
-bzip2: Can't guess original name for data -- using data.out
+bzip2: Cant guess original name for data -- using data.out
 bandit12@bandit:/tmp/break$ file bandit.out
-bandit.out: cannot open `bandit.out' (No such file or directory)
+bandit.out: cannot open 'bandit.out' (No such file or directory)
 bandit12@bandit:/tmp/break$ file data.out
 data.out: gzip compressed data, was "data4.bin", last modified: Thu May  7 18:14:30 2020, max compression, from Unix
 bandit12@bandit:/tmp/break$ ls -alps
