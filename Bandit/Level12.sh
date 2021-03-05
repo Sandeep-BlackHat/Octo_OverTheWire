@@ -1,28 +1,3 @@
-
-      ,----..            ,----,          .---.
-     /   /   \         ,/   .`|         /. ./|
-    /   .     :      ,`   .'  :     .--'.  ' ;
-   .   /   ;.  \   ;    ;     /    /__./ \ : |
-  .   ;   /  ` ; .'___,/    ,' .--'.  '   \' .
-  ;   |  ; \ ; | |    :     | /___/ \ |    ' '
-  |   :  | ; | ' ;    |.';  ; ;   \  \;      :
-  .   |  ' ' ' : `----'  |  |  \   ;  `      |
-  '   ;  \; /  |     '   :  ;   .   \    .\  ;
-   \   \  ',  /      |   |  '    \   \   ' \ |
-    ;   :    /       '   :  |     :   '  |--"
-     \   \ .'        ;   |.'       \   \ ;
-  www. `---` ver     '---' he       '---" ire.org
-
-
-Welcome to OverTheWire!
-
-If you find any problems, please report them to Steven or morla on
-irc.overthewire.org.
-
---[ Playing the games ]--
-
-  This machine might hold several wargames.
-  If you are playing "somegame", then:
 bandit12@bandit:~$ ls -alps
 total 24
 4 drwxr-xr-x  2 root     root     4096 May  7  2020 ./
